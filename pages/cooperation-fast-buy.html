@@ -1,12 +1,805 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="../css/tailwind.css"> -->
+    <link rel="icon" href="../assets/images/cooperations/Logo.svg" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-</head>
-<body>
-       
-    <script src="../js/main.js"></script></body>
+    <link rel="stylesheet" href="../css/cooperation-fast-buy.min.css" />
+    <title>Cooperation-2 || Bekzod</title>
+  </head>
+  <body>
+    <!-- <div id="loader">
+      <div class="loadingio-spinner-eclipse-c7kl3vc0v8r">
+        <div class="ldio-xf8i52ldli8"><div></div></div>
+      </div> -->
+    </div>
+    <header>
+      <div id="loading">
+        <div class="loadingio-spinner-dual-ring-rooabvpo2t">
+          <div class="ldio-82s6ihcfinc">
+            <div></div>
+            <div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="fixed z-50 top-0 w-full">
+        <div>
+          <div
+            id="navbar2"
+            class="navbar__top hidden lg:flex items-center bg-black"
+          >
+            <div class="container mx-auto px-5">
+              <a href="#" class="text-white text-xs font-bold"
+                >RU<a href="#" class="text-gray-700 ml-2 text-xs font-bold"
+                  >UZB</a
+                ></a
+              >
+            </div>
+          </div>
+          <div class="navbar__bottom bg-white shadow-md">
+            <div
+              id="navbar"
+              class="container px-5 mx-auto flex justify-between"
+            >
+              <div
+                class="navbar__bottom--left flex items-center gap-4 lg:gap-11"
+              >
+                <!----------------------------Navbar Response------------------------------>
+                <div id="navbar-responsive" class="flex relative lg:hidden">
+                  <button
+                    id="navbar-close"
+                    class="absolute top-5 right-7 py-5 px-3 bg-orange-500 rounded-md"
+                  >
+                    <img
+                      src="./image-index/close.svg"
+                      class="hover:scale-125 transform"
+                      alt="close"
+                    />
+                  </button>
+                  <ul class="flex-col max-w-md w-full px-5">
+                    <li class="mt-10 text-center">
+                      <a
+                        class="p-5 bg-gray-500 transition rounded w-full inline-block font-medium text-sm hover:text-gray-500 hover:bg-white hover:scale-x-125"
+                        href="../index.html"
+                        >Главная</a
+                      >
+                    </li>
+                    <li class="mt-10 text-center">
+                      <a
+                        class="p-5 bg-gray-500 transition rounded w-full inline-block font-medium text-sm hover:text-gray-500 hover:bg-white hover:scale-x-125"
+                        href="about.html"
+                        >О нас</a
+                      >
+                    </li>
+                    <li class="mt-10 text-center">
+                      <a
+                        class="p-5 bg-gray-500 transition rounded w-full inline-block font-medium text-sm hover:text-gray-500 hover:bg-white hover:scale-x-125"
+                        href="#"
+                        >Категории</a
+                      >
+                    </li>
+                    <li class="mt-10 text-center">
+                      <a
+                        class="p-5 bg-gray-500 transition rounded w-full inline-block font-medium text-sm hover:text-gray-500 hover:bg-white hover:scale-x-125"
+                        href="#"
+                        >Сотрудничество</a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    class="mt-10 max-w-md w-full py-3 rounded bg-gray-100 hover:bg-gray-50 hover:text-gray-400"
+                    type="submit"
+                  >
+                    Войти
+                  </button>
+                  <button
+                    class="mt-10 max-w-md w-full py-3 rounded nav__btn--2 bg-amber-400 hover:bg-amber-50 hover:text-amber-400 hover:border-amber-400"
+                    type="submit"
+                  >
+                    Зарегистрироваться
+                  </button>
+                </div>
+                <button id="navbar-open" class="lg:hidden">
+                  <img
+                    src="./image-index/menu.svg"
+                    class="lg:hidden"
+                    alt="menu"
+                  />
+                </button>
+                <!----------------------------/Navbar Response------------------------------>
+                <a href="../index.html" class="lg:flex lg:items-center lg:mr-7">
+                  <span class="text-2xl font-bold hidden lg:inline-block"
+                    >MILANDI</span
+                  >
+                  <img
+                    src
+                    class="inline-block lg:hidden"
+                    width="46px"
+                    alt="svg"
+                  />
+                </a>
+                <ul class="hidden lg:flex lg:ml-7">
+                  <li>
+                    <a
+                      class="p-5 font-medium text-sm hover:text-gray-500"
+                      href="./pages/"
+                      >Главная</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="p-5 font-medium text-sm hover:text-gray-500"
+                      href="#"
+                      >О нас</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="p-5 font-medium text-sm hover:text-gray-500"
+                      href="category.html"
+                      >Категории</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="p-5 font-medium text-sm hover:text-gray-500"
+                      href="#"
+                      >Сотрудничество</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar__bottom--right flex items-center">
+                <button
+                  class="hidden lg:inline-block px-2 py-1 rounded bg-gray-100 hover:bg-gray-50 hover:text-gray-400"
+                  type="submit"
+                >
+                  <a href="login.html">Войти</a>
+                </button>
+                <button
+                  class="hidden lg:inline-block ml-5 px-2 py-1 rounded nav__btn--2 bg-amber-400 hover:bg-amber-50 hover:text-amber-400 hover:border-amber-400"
+                  type="submit"
+                >
+                  <a href="register.html">Зарегистрироваться</a>
+                </button>
+                <a class="ml-10" href="shop.html">
+                  <img
+                    class="transition-all hover:rotate-719"
+                    src="../assets/images/cooperations/ic_cart.svg"
+                    alt=" k svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="register">
+        <div class="left">
+          <h1 class="headline text-xl font-extrabold mb-20">
+            Здравствуйте, оставьте заявку для сотрудничества
+          </h1>
+          <h2 class="text-xl mb-2 font-semibold">Phone</h2>
+          <h6 class="mb-11">+1 848 493 944</h6>
+          <h2 class="text-xl mb-2 font-semibold">Address</h2>
+          <h6>508 Bridle Avenue Newnan, GA 30263</h6>
+        </div>
+        <div class="right">
+          <form>
+            <div class="relative mb-3" data-te-input-wrapper-init>
+              <input
+                type="name"
+                class="peer block min-h-[auto] rounded border-black bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleFormControlInputEmail"
+                placeholder="Example label"
+              />
+              <label
+                for="exampleFormControlInputEmail"
+                class="pointer-events-none absolute left-3 top-0 mb-0 origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-slate-900 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-slate-900 dark:peer-focus:text-primary"
+                >Имя
+              </label>
+            </div>
+            <div class="relative mb-3" data-te-input-wrapper-init>
+              <input
+                type="tel"
+                class="peer block min-h-[auto] rounded border-black bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleFormControlInputEmail"
+                placeholder="Example label"
+              />
+              <label
+                for="exampleFormControlInputEmail"
+                class="pointer-events-none absolute left-3 top-0 mb-0 origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-slate-900 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-slate-900 dark:peer-focus:text-primary"
+                >Номер телефона
+              </label>
+            </div>
+            <div class="relative mb-3" data-te-input-wrapper-init>
+              <input
+                type="text"
+                class="peer block min-h-[auto] rounded border-black bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleFormControlInputEmail"
+                placeholder="Example label"
+              />
+              <label
+                for="exampleFormControlInputEmail"
+                class="pointer-events-none absolute left-3 top-0 mb-0 origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-slate-900 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-slate-900 dark:peer-focus:text-primary"
+                >Компания
+              </label>
+            </div>
+            <div class="flex flex-col p-4 max-w-xl">
+              <textarea
+                rows="5"
+                class="mb-4 px-2 py-2 border-2 border-gray-300 rounded-lg"
+                id="comment"
+                name="comment"
+              >
+                Коротко о вашей компании
+
+              </textarea>
+            </div>
+          </form>
+          <button
+            type="reset"
+            class="bg-yellow-400 font-extrabold px-16 py-3 rounded-md"
+          >
+            Отправить
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="mt-20 py-12 bg-white">
+      <div class="container mx-auto p-5 hidden md:flex justify-between">
+        <div>
+          <h1 class="text-sm font-semibold uppercase mb-4">про imperia</h1>
+          <p class="text-sm font-normal mb-4 w-60">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+            pretium aenean dignissim sit cursus dictumst adipiscing nunc.
+          </p>
+          <a class="" href="./index.html">
+            <img src="../assets/images/cooperations/Group.svg" alt="svg" />
+          </a>
+        </div>
+        <div class="">
+          <div>
+            <h1 class="text-sm font-semibold uppercase mb-4">контакты</h1>
+            <ul>
+              <li class="mb-3">
+                <a class="text-sm font-normal" href="#">+998 90 958 78 87</a>
+              </li>
+              <li class="">
+                <a class="text-sm font-normal" href="./https//support@fonon.uz"
+                  >support@fonon.uz</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mt-14">
+            <h1 class="text-sm font-semibold uppercase mb-4">рабочее время</h1>
+            <ul>
+              <li class="mb-3">
+                <a class="text-sm font-normal capitalize" href="#"
+                  >По будням 9:00 to 18:00</a
+                >
+              </li>
+              <li class="">
+                <a class="text-sm font-normal capitalize" href="#"
+                  >В выходные 11:00 to 18:00</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="">
+          <h1 class="text-sm font-semibold mb-4 uppercase">Меню</h1>
+          <ul>
+            <li class="mb-3">
+              <a class="text-sm font-normal mb-3" href="#">Главная</a>
+            </li>
+            <li class="mb-3">
+              <a class="text-sm font-normal" href="./https//support@fonon.uz"
+                >О нас</a
+              >
+            </li>
+            <li class="mb-3">
+              Asilbek Xoliyorov, [12/15/2023 12:16 AM]
+              <a class="text-sm font-normal" href="./https//support@fonon.uz"
+                >Категории</a
+              >
+            </li>
+            <li class="">
+              <a class="text-sm font-normal" href="./https//support@fonon.uz"
+                >Сотрудничество</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <h1 class="text-sm font-semibold uppercase mb-4">категории</h1>
+          <ul>
+            <li class="mb-3">
+              <a class="text-sm font-normal capitalize" href="#"
+                >Женская одежда</a
+              >
+            </li>
+            <li class="mb-3">
+              <a
+                class="text-sm font-normal capitalize"
+                href="./https//support@fonon.uz"
+                >Мужская одежда</a
+              >
+            </li>
+            <li class="mb-3">
+              <a
+                class="text-sm font-normal capitalize"
+                href="./https//support@fonon.uz"
+                >Детская одежда</a
+              >
+            </li>
+            <li class="mb-3">
+              <a
+                class="text-sm font-normal capitalize"
+                href="./https//support@fonon.uz"
+                >Обувь</a
+              >
+            </li>
+            <li class="mb-3">
+              <a
+                class="text-sm font-normal capitalize"
+                href="./https//support@fonon.uz"
+                >Сумки</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="text-sm font-normal capitalize"
+                href="./https//support@fonon.uz"
+                >Аксесуары</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container mx-auto px-5 md:hidden">
+        <h1 class="mb-10 max-w-xs mx-auto">
+          High fidelity wireframes include more real content, specific
+          typography choices, and information on image.
+        </h1>
+        <div class="flex justify-between max-w-xs mx-auto">
+          <ul class="pb-9">
+            <li class="mb-3">
+              <a class="text-xl font-semibold" href="#">Catalog</a>
+            </li>
+            <li class="mb-3">
+              <a class="text-xl font-semibold" href="#">Popular</a>
+            </li>
+            <li class="mb-3">
+              <a class="text-xl font-semibold" href="#">Pricing</a>
+            </li>
+            <li>
+              <a class="text-xl font-semibold" href="#">Features</a>
+            </li>
+          </ul>
+          <ul>
+            <li class="mb-4">
+              <a class="text-xl font-semibold" href="#">About</a>
+            </li>
+            <li class="mb-4">
+              <a class="text-xl font-semibold" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="text-xl font-semibold" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="mt-10 max-w-xs mx-auto">
+          <div class="flex items-center mb-4 gap-4">
+            <a href="#">
+              <img src="./image-index/location.svg" alt="svg" />
+            </a>
+            <p class="">
+              Los Angeles,<br />
+              359 Hidden Valley Road
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <a href="#">
+              <img src="./image-index/mail.svg" alt="svg" />
+            </a>
+            <a href="#">Hellohero@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+      #backtop {
+        position: fixed;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 50%;
+        bottom: -110px;
+        right: 25px;
+        width: 50px;
+        height: 50px;
+        z-index: -1;
+        -webkit-animation: infinite 4s;
+        animation: infinite 4s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      #backtop img {
+        width: 60px;
+        height: 60px;
+      }
+
+      nav .navbar__bottom #navbar-responsive {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: rgb(143, 142, 122);
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #navbar {
+        height: 80px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+      #navbar.navbar-shrink {
+        height: 60px;
+      }
+
+      #navbar2 {
+        height: 50px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+      #navbar2.navbar2-shrink {
+        height: 30px;
+      }
+
+      #backtop {
+        position: fixed;
+        bottom: -60px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: orange;
+        color: white;
+        cursor: pointer;
+        padding: 15px 10px;
+        border-radius: 4px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+      #backtop.backtop-show {
+        bottom: 30px;
+      }
+
+      #loader {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: white;
+        opacity: 0.8;
+        -webkit-transition: 2s;
+        transition: 2s;
+        z-index: 10000;
+      }
+
+      #loader.loading-none {
+        z-index: -10000;
+        opacity: 0;
+      }
+
+      .loader {
+        width: 150px;
+        height: 150px;
+        border-left: 5px solid #38ff8e;
+        border-radius: 50%;
+        -webkit-animation: right5231 0.9s linear infinite;
+        animation: right5231 0.9s linear infinite;
+      }
+
+      .loader::before,
+      .loader::after {
+        content: "";
+        width: 120px;
+        height: 120px;
+        display: block;
+        position: absolute;
+        top: calc(50% - 60px);
+        left: calc(50% - 60px);
+        border-right: 5px solid #ffbe0b;
+        border-radius: 50%;
+        -webkit-animation: left036 0.9s linear infinite;
+        animation: left036 0.9s linear infinite;
+      }
+
+      .loader::after {
+        width: 90px;
+        height: 90px;
+        top: calc(50% - 45px);
+        left: calc(50% - 45px);
+        border: 0;
+        border-top: 5px solid #ff086e;
+        -webkit-animation: none;
+        animation: none;
+      }
+
+      @-webkit-keyframes ldio-xf8i52ldli8 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        50% {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes ldio-xf8i52ldli8 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        50% {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      .ldio-xf8i52ldli8 div {
+        position: absolute;
+        -webkit-animation: ldio-xf8i52ldli8 2.14s linear infinite;
+        animation: ldio-xf8i52ldli8 2.14s linear infinite;
+        width: 169.26px;
+        height: 169.26px;
+        top: 23.87px;
+        left: 23.87px;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 6.076px 0 0 #e1815b;
+        box-shadow: 0 6.076px 0 0 #e1815b;
+        -webkit-transform-origin: 84.63px 87.668px;
+        transform-origin: 84.63px 87.668px;
+      }
+
+      .loadingio-spinner-eclipse-c7kl3vc0v8r {
+        width: 217px;
+        height: 217px;
+        display: inline-block;
+        overflow: hidden;
+        background: #ffffff;
+      }
+
+      .ldio-xf8i52ldli8 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transform: translateZ(0) scale(1);
+        transform: translateZ(0) scale(1);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        /* see note above */
+      }
+
+      .ldio-xf8i52ldli8 div {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+      }
+
+      .container {
+        width: 100vw;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body {
+        background-color: #fafafa;
+      }
+
+      .man {
+        height: 458px;
+      }
+
+      .hero__right h1 {
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+      }
+      .hero__right p {
+        font-family: Montserrat;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.44px;
+      }
+      .hero__right p p {
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 500;
+      }
+      .hero__right .stars p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.1px;
+      }
+
+      .small__boxs .box {
+        width: 48px;
+        border-radius: 6px;
+        border: 1px solid #dbdee7;
+      }
+      .small__boxs .box h2 {
+        font-style: normal;
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 24px;
+      }
+
+      .images {
+        gap: 15px;
+        position: relative;
+        bottom: 100px;
+      }
+
+      .btn {
+        font-style: normal;
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 24px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+      .btn button {
+        width: 386px;
+        height: 40px;
+      }
+
+      .tasks {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .tasks .task-2,
+      .tasks .task-4 {
+        position: relative;
+        right: 200px;
+      }
+
+      .card {
+        width: 264px;
+        height: 522px;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+      }
+      .card button {
+        color: var(--Black, #000);
+        text-align: center;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Montserrat;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+      }
+      .card h5 {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+      }
+      .card p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.4px;
+      }
+
+      .price h4 {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin-left: 70px;
+      }
+
+      .text {
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+      }
+
+      .clothes h2 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0.5px;
+      }
+    </style>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
