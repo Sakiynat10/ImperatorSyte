@@ -4,9 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Imperator || Checkout</title>
+    <style>
+        @media(max-width:1125px)
+        {
+            .content__desc
+            {
+                display: none;
+            }
+        }
+        @media(max-width:1125px)
+        {
+            .checkout__hero
+            {
+                font-size: 20px !important;
+            }
+        }
+        @media(max-width:650px)
+        {
+            .content__title
+            {
+                padding-bottom: 5px !important;
+            }
+
+            .last__content
+            {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .content__box
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            @media(max-width:408px)
+            {
+                .product__card
+                {
+                    flex-direction: column;
+                }
+                .content__title
+                {
+                    padding-bottom: 14px !important;
+                }
+                .content__box
+                {
+                    width: 100% !important;
+                    text-align: center;
+                }
+                .checkout__hero
+                {
+                    font-weight: 500 !important;
+                }
+                .hero__img
+                {
+                    display: none;
+                }
+            }
+        }
+
+    </style>
 </head>
 <body>
-       
-    <script src="../js/main.js"></script></body>
+<main>
+    <section id="our-payment" class="pb-16" style="background-color: #ffa;">
+        <div class="container mx-auto px-3">
+            <div class="product__title pb-7 text-center text-3xl font-bold">
+                <h2>Ваш заказ</h2>
+            </div>
+            <div class="product__cards pb-6 ">
+                <div class="product__card flex items-center justify-between bg-white rounded-xl">
+                    <div class="img-box">
+                        <img src="../assets/images/about__images/checkout1-img.png" alt="this is a img">
+                    </div>
+                    <div class="content__box w-4/5 px-6 py-6">
+                        <div class="content__title w-full  flex justify-between pb-12">
+                            <h2 class="font-bold text-3xl checkout__hero">Худи мужская белая с принтом.</h2>
+                            <img class="hero__img" src="../assets/images/about__images/x.svg" alt="close svg">
+                        </div>
+                        <div class="content__desc pb-12 md:none pr-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget tellus purus, id pretium viverra rutrum. Et blandit nunc a pellentesque in cras facilisis sapien, dictum. At vel egestas urna morbi tortor leo ut. In curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, egetAt vel egestas urna morbi tortor leo ut. In curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.</p>
+                        </div>
+                        <div class="last__content flex justify-between">
+                            <div class="costandsize flex">
+                                <p class="pr-6">25.000 Сум</p>
+                                <p>Size:</p>
+                                <h4 class="pl-2 font-semibold">28</h4>
+                            </div>
+                            <div class="number__product flex">
+                                <p class="px-4 py-1" style="background-color: #FFC000;">
+                                    <img src="../assets/images/about__images/-.svg" alt="-">
+                                </p>
+                                <p class="px-11" style="background-color: #f2f2f2;">1</p>
+                                <p class="px-4 py-1" style="background-color: #FFC000;">
+                                    <img src="../assets/images/about__images/+.svg" alt="+">
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__cards pb-6 ">
+                <div class="product__card flex items-center justify-between bg-white rounded-xl">
+                    <div class="img-box">
+                        <img src="../assets/images/about__images/checkout1-img.png" alt="this is a img">
+                    </div>
+                    <div class="content__box w-4/5 px-6 py-6">
+                        <div class="content__title w-full  flex justify-between pb-12">
+                            <h2 class="font-bold text-3xl checkout__hero">Худи мужская белая с принтом.</h2>
+                            <img class="hero__img" src="../assets/images/about__images/x.svg" alt="close svg">
+                        </div>
+                        <div class="content__desc pb-12 md:none pr-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget tellus purus, id pretium viverra rutrum. Et blandit nunc a pellentesque in cras facilisis sapien, dictum. At vel egestas urna morbi tortor leo ut. In curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, egetAt vel egestas urna morbi tortor leo ut. In curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.</p>
+                        </div>
+                        <div class="last__content flex justify-between">
+                            <div class="costandsize flex">
+                                <p class="pr-6">25.000 Сум</p>
+                                <p>Size:</p>
+                                <h4 class="pl-2 font-semibold">28</h4>
+                            </div>
+                            <div class="number__product flex">
+                                <p class="px-4 py-1" style="background-color: #FFC000;">
+                                    <img src="../assets/images/about__images/-.svg" alt="-">
+                                </p>
+                                <p class="px-11" style="background-color: #f2f2f2;">1</p>
+                                <p class="px-4 py-1" style="background-color: #FFC000;">
+                                    <img src="../assets/images/about__images/+.svg" alt="+">
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="shop" class="shop" style="background-color: #f2f2f2;">
+    <div class="container mx-auto px-3">
+        <div class="shop__brands">
+            <div class="company__row"></div>
+        </div>
+    </div>
+    </section>
+</main>
+<script src="../js/main.js"></script></body>
 </html>
