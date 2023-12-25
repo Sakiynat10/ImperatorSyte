@@ -4,12 +4,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document meniki</title>
-    <h1>hello</h1>
+    <title>Imperator || About</title>
+    <style>
+        
+@media(max-width:822px)
+{
+
+    .always__work
+    {
+        width: 100% !important;
+        text-align: left;
+        font-size: 16px !important;
+    }
+   .hero__contents
+   {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+   }
+   .right__content
+   {
+      padding: 20px 0px;
+   }
+   .about__iframe
+   {
+    width: 100%;
+   }
+}
+#hero
+{
+   background: var(--Gray-6, #FAFAFA);
+   padding-top: 110px;
+}
+
+.item
+{
+   width: 200px;
+   height: 150px;
+   margin: 30px;
+}
+
+@media(max-width:780px)
+{
+
+   .advantages__items
+   {
+      justify-content: center;
+   }
+   .item
+   {
+      width: 100%;
+   }
+}
+#advantages
+{
+   background: linear-gradient(#fafafa 0% 35% , #fff 35% 100%);
+}
+#adds
+{
+   background: radial-gradient(1075.73% 141.42% at 0% 0%, #0F0D2B 0%, #0C0926 100%);
+}
+.adds__items
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.adds__content
+{
+   padding-left: 60px;
+   p , h3
+   {
+      max-width: 738px;
+   
+   }
+
+}
+@media(max-width:900px)
+{
+   .adds__content
+   {
+      padding-left: 0px;
+   }
+   .adds__items
+   {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+}
+@media(max-width:476px)
+{
+   .adds__buttons
+   {
+      flex-direction: column;
+      width: 90px;
+      gap: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+   }
+}
+.map__content
+{
+   width: 40%;
+}
+.comments
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+@media(max-width:700px)
+{
+    .comments
+    {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+    .map__content
+{
+   width: 100%;
+}
+}
+@media(max-width:1100px)
+{
+   .about__location
+   {
+      flex-direction: column;
+      justify-content: cente
+      r;
+      gap: 30px;
+   }
+
+}
+    </style>
 </head>
 <body>
-<h1>hello myn name is muhammadali</h1>
-<h2>hello</h2>
+    <main>
+        <section id="hero">
+        <div class="container mx-auto px-5">
+          <div class="hero__title items-center justify-center flex font-bold text-4xl pt-16 pb-6">
+            <h1 class="">О нас</h1>
+          </div>
+          <div class="hero__contents flex justify-between items-center">
+            <div class="left__content">
+              <h2 class="text-black text-2xl font-bold leading-8 pb-6" style="max-width: 577px;">«Потрясающий опыт, мне это нравится
+                много. Спасибо команде.</h2>
+                <p style="max-width: 577px;" class="font-normal leading-6 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat leo, in sit tellus fermentum donec quisque diam molestie. Enim purus ullamcorper ultricies nisi. Eu sit laoreet egestas nascetur lacinia donec nunc viverra. Eu nullam cras eget egestas dui id platea magna. Massa lorem ultrices mauris tellus, mattis eu leo bibendum lobortis. </p>
+            </div>
+            <div class="right__content justify-end">
+              <img src="../assets/images/about__images/hero__img.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+        </section>
+        <section id="advantages">
+          <div class="container mx-auto px-5">
+            <div class="advantages">
+              <div class="advantages__title">
+                <h2 class="text-center w-full font-bold pt-7 text-3xl">Наши преимущества</h2>
+              </div>
+              <div class="advantages__items flex-wrap flex items-center justify-between pt-10 pb-7">
+                <div class="item flex items-center justify-center flex-col">
+                  <img src="../assets/images/about__images/ic_stars.svg" alt="img">
+                  <h4 class="pt-11">Лучший сервис</h4>
+                </div>
+                <div class="item flex items-center justify-center flex-col">
+                  <img src="../assets/images/about__images/ic_truck.svg" alt="img">
+                  <h4 class="pt-11">Экспресс доставка </h4>
+                </div>
+                <div class="item flex items-center justify-center flex-col">
+                  <img src="../assets/images/about__images/ic_like.svg" alt="img">
+                  <h4 class="pt-11">Экспресс доставка </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="adds">
+          <div class="container mx-auto px-5 adds__items">
+            <div class="adds_img">
+              <img src="../assets/images/about__images/tel.png" alt="tell">
+            </div>
+            <div class="adds__content">
+              <h3 class="text-white font-bold text-4xl">Скачай приложение и получай призы каждый день</h3>
+              <p class="text-white font-normal text-md pb-10 pt-6">Скачав наш приложение вы получаете возможность играть в призовые игры каждый день и выигровать разного рода подарки для себя.
+                В нашем приложении призовые игры проходят аблолютно каждый день и всё это совершенно бесплатно.</p>
+                <div class="adds__buttons flex">
+                  <img class="pr-6" src="../assets/images/about__images/apstore.png" alt="app store">
+                  <img src="../assets/images/about__images/google-play.png" alt="app store">
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="map">
+          <div class="container mx-auto px-5 about__location flex justify-between items-center pt-32 pb-16">
+            <div class="iframe">
+              <iframe class="about__iframe mr-9" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.8398712116!2d69.11455620810692!3d41.2827379463425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1702601328555!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map__content">
+              <h3 class="text-4xl font-bold pb-5 always__work ">Работаем по всему миру.</h3>
+              <div class="comments">
+                <div class="map__comment">
+                  <h5>Bali</h5>
+                  <p>508 Bridle Avenue <br>Newnan, GA <br> 30263</p>
+                </div>
+                <div class="map__comment">
+                  <h5>London</h5>
+                  <p>508 Bridle Avenue <br>Newnan, GA <br> 30263</p>
+                </div>
+                <div class="map__comment">
+                  <h5>Mascow</h5>
+                  <p>508 Bridle Avenue <br>Newnan, GA <br> 30263</p>
+                </div>
+                <div class="map__comment">
+                  <h5>Fargona</h5>
+                  <p>508 Bridle Avenue <br>Newnan, GA <br> 30263</p>
+                </div>
+           
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 <script src="../js/main.js"></script>
 </body>
 </html>
