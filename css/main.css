@@ -1,3 +1,4 @@
+
 nav{
     .navbar__bottom {
         #navbar-responsive {
@@ -187,4 +188,121 @@ html{
 .w-64{
     max-width: 290px;
     width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Lato:wght@700&family=Montserrat:ital,wght@1,200&family=Mulish:wght@500&family=Open+Sans&family=Orbitron:wght@700&family=PT+Sans&family=Playfair+Display:wght@700&family=Poppins:wght@400;700&family=Roboto:wght@300;400&family=Rubik:wght@500&family=Schoolbell&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+#loading {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+#loading.loading-none {
+    opacity: 0;
+    z-index: -1;
+}
+
+/* #backtop{
+    box-shadow: 0px 0px 5px 5px gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:orange;
+    position: fixed;
+    right: 20px;
+    bottom: -50px;
+    transition: 0.5s;
+} */
+/* #backtop.backtop-show {
+    bottom: 50px;
+} */
+
+/* .navbar-shrink{
+    height: 60px;
+    box-shadow: 0px 0px 5px 5px orange;
+    background-color: rgba(240, 193, 81, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
+} */
+.header__top{
+    transition: 0.5s;
+}
+.navbar-shrink .header__top{
+    position: absolute;
+    top: -70px;
+}
+header{
+    transition: 0.5s;
+    height: 120px;
+}
+
+#navbar-responsive{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: red;
+    width: 100%;
+    left: -100%;
+    height: 100vh;
+    z-index: 99;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: 0.5s;
+    
+}
+#navbar-close{
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    width: 100px;
+}
+#mode-btn{
+    border-radius: 25px 0px 0px 25px;
+    padding: 15px;
+    display: flex;
+    background-color: orange;
+    position: fixed;
+    top: 150px;
+    right: 0px;
+}
+.dark #mode-btn{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+.dark  :is(main,footer,h1, .categoriy,.means__card,.milandi__right ){
+    background-color: black;
+    /* color: black; */
+}
+.dark *{
+    color: white;
+}
+.dark .means__left{
+    margin-top: 48px;
+    box-shadow: 0px 0px 5px 5px orange;
+}
+.dark header{
+    box-shadow: 0px 0px 5px 5px orange;
+}
+.dark .header__top{
+    box-shadow: 0px 0px 5px 5px orange;
+}
+.dark .means__card{
+    box-shadow: 0px 0px 5px 5px orange;
+}
+.dark footer{
+    box-shadow: 0px 0px 5px 5px orange;
+}
+.dark .milandi__wrapper{
+    box-shadow: 0px 0px 5px 5px orange;
 }

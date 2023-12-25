@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/main.css">
     <title>Means wear || yahyo </title>
 </head>
 <body>
     <div id="loading">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/24a7df14-b7ab-47e0-aead-5c326df7c648/t0mFtV8PzA.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop  autoplay direction="1" mode="normal"></lottie-player>
     </div>
-    <header id="navbar" class="  w-full fixed z-50   shadow ">
+    <header id="navbar" class="  w-full fixed z-50  shadow ">
         <div class="header__top mb-3 h-10 bg-slate-950">
             <div class="container w-full [max-width:1186px] mx-auto px-5">
                 <ul class=" flex items-center gap-x-2 pt-2  ">
@@ -25,18 +26,18 @@
             <nav class="flex items-center justify-between">
                 <h2 class="font-sans font-bold text-2xl leading-8">MILANDI</h2>
                 <ul class="hidden md:flex items-center gap-x-6">
-                    <li><a class="not-italic hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5  font-medium " href="../index.html">Главная</a></li>
-                    <li><a class="not-italic hover:border-b-2 transition duration-600 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5 font-medium " href="./cooperation-fast-buy.html">О нас</a></li>
-                    <li><a class="not-italic hover:border-b-2 transition duration-700 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5 font-medium " href="./category.html">Категории</a></li>
-                    <li><a class="not-italic hover:border-b-2 transition duration-800 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5 font-medium " href="./cooperation.html">Сотрудничество</a></li>
+                    <li><a class="not-italic hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5  font-medium " href="#">Asosiy</a></li>
+                    <li><a class="not-italic hover:border-b-2 transition duration-600 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5 font-medium " href="#">Biz haqimizda</a></li>
+                    <li><a class="not-italic hover:border-b-2 transition duration-700 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5 font-medium " href="#">Kategiriyalar</a></li>
+                    <li><a class="not-italic hover:border-b-2 transition duration-800 border-yellow-500 hover:text-yellow-500 transition duration-300 font-sans leading-5 font-medium " href="#">Hamkorlik</a></li>
                 </ul> 
                 <button id="mode-btn">
                     <img src="../images/dark.svg" alt="">
                     <img src="../images/light.svg" alt="">
                 </button>
                 <ul class="hidden md:flex items-center gap-x-4">
-                    <li><button class="  hover:text-white transition duration-300 font-sans font-normal leading-6 p-1 bg-slate-200 not-italic rounded-sm">Войти</button></li>
-                    <li><button class=" hover:text-white transition duration-300 font-sans font-normal leading-6 not-italic bg-yellow-500 p-2 rounded-md">Зарегистрироваться</button></li>
+                    <li><button class="  hover:text-white transition duration-300 font-sans font-normal leading-6 p-1 bg-slate-200 not-italic rounded-sm">Kirish uchun</button></li>
+                    <li><button class=" hover:text-white transition duration-300 font-sans font-normal leading-6 not-italic bg-yellow-500 p-2 rounded-md">Roʻyxatdan oʻtish</button></li>
                     <li class="ml-6"><img src="../images/buy.svg" alt=""></li>
                 </ul>
                 <button class="md:hidden" id="navbar-open">
@@ -47,14 +48,14 @@
     </header>
     <div id="navbar-responsive" class="flex flex-col gap-y-20">
         <ul class=" flex flex-col  items-center justify-center gap-y-5 text-white">
-            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class=" not-italic" href="#">Главная</a></li>
-            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">О нас</a></li>
-            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">Категории</a></li>
-            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">Сотрудничество</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class=" not-italic" href="#">Asosiy</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">Biz haqimizda</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">Kateforiyalar</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">Hamkorlik</a></li>
         </ul>
         <ul class="flex flex-col items-center justify-center gap-y-5 ">
-            <li><button class="w-36 text-white py-3 rounded-md text-center bg-yellow-500">Войти</button></li>
-            <li><button class="w-40 text-white py-3 rounded-md text-center bg-yellow-500">Зарегистрироваться</button></li>
+            <li><button class="w-36 text-white py-3 rounded-md text-center bg-yellow-500">Kirish uchun</button></li>
+            <li><button class="w-40 text-white py-3 rounded-md text-center bg-yellow-500">Ro'yhatdan o'tish</button></li>
             <li class="ml-6"><img src="../images/gruzniy.svg" alt=""></li>
         </ul>
         <button id="navbar-close">
@@ -69,9 +70,9 @@
             <section id="means" class="[padding-bottom:68px] pt-24">
                 <div class="flex items-center pt-10">
                     <ul class=" w-full flex text-center gap-x-2  md:text-start mb-4  font-mono text-sm font-bold ">
-                        <li><a class="font-sans hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300" href="../index.html">Главная /</a></li>
-                        <li><a class="font-sans hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300" href="./category.html">Категории /</a></li>
-                        <li><a class="font-sans hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300" href="./offermative-zakaz.html">Мужская одежда</a></li>
+                        <li><a class="font-sans hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300" href="../index.html">Asosiy /</a></li>
+                        <li><a class="font-sans hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300" href="./category.html">Kategoriyalar /</a></li>
+                        <li><a class="font-sans hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300" href="./offermative-zakaz.html">Erkaklar kiyimi</a></li>
                     </ul>
                 </div>
                 <div class="means__wrapper lg:flex justify-between">
@@ -80,7 +81,7 @@
                             <h1 class="bg-red-200 bg-white text-5xl [max-width:264px] [height:64px] pl-8 pt-4 font-sans text-2xl  font-normal leading-6 hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300">Filter</h1>
                             <div  @click="open = ! open" class="p-4 categoriy bg-white  [max-width:264px] rounded flex justify-between font-mono items-center">
                                 <div class="  flex items-center gap-2">
-                                    <h6 class="text-center font-sans font-normal leading-7 text-xl hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300">category</h6>
+                                    <h6 class="text-center font-sans font-normal leading-7 text-xl hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300">Kategoriya</h6>
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
                                     <!-- <h4 class="font-medium text-sm text-blue-500">Add bitcoin to your wallet</h4> -->
                                 </div>
@@ -97,21 +98,21 @@
                             <!-- <h4 class="text-sm text-slate-400">Now you can earn bitcoin in your wallet just by referring coinx to one of your friend.</h4>
                                 <button class="bg-blue-500 p-2 text-sm text-white font-bold rounded mt-4">Refer now</button> -->
                                 <ul>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Women’s wear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Men’s wear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Kid’s wear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Shoes</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Сумки</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Accessories</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Underwear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Decorations</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Home textiles</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Wholesale</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Ayollar kiyimi</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Erkaklar kiyimi</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Bilalar kiyimi</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Oyoq kiyimlar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>sumkalar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Aksessuarlar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Ichki kiyim</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Dekoratsiyalar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Uy tekstili</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Ulgurji</p><input type="checkbox"></li> <hr>
                                 </ul>
                             </div>
                             <div  @click="open = ! open" class="p-4 categoriy bg-white [max-width:264px] rounded flex justify-between  items-center">
                                 <div class="flex items-center gap-2">
-                                    <h6 class="text-center  font-sans font-normal leading-7  not-italic text-xl tracking-widest hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300 " >Subcategories</h6>
+                                    <h6 class="text-center  font-sans font-normal leading-7  not-italic text-xl tracking-widest hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300 " >Pastki toifalar</h6>
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
                                     <!-- <h4 class="font-medium text-sm text-blue-500">Add bitcoin to your wallet</h4> -->
                                 </div>
@@ -128,16 +129,16 @@
                             <!-- <h4 class="text-sm text-slate-400">Now you can earn bitcoin in your wallet just by referring coinx to one of your friend.</h4>
                                 <button class="bg-blue-500 p-2 text-sm text-white font-bold rounded mt-4">Refer now</button> -->
                                 <ul>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Women’s wear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Men’s wear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Kid’s wear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Shoes</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Сумки</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Accessories</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Underwear</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Decorations</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Home textiles</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Wholesale</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Ayollar kiyimi</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Erkaklar kiyimi</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Bolalr kiyimi</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>oyoq kiyimlar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>sumkalar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Aksessuarlar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Ichkiyimlar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Dekloratsiyalar</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Uy tekstili</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px] hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300"><p>Ulgurji</p><input type="checkbox"></li> <hr>
                                 </ul>
                             </div>
                             <div  @click="open = ! open" class="p-4 categoriy bg-white  [max-width:264px] rounded flex justify-between  items-center">
@@ -159,13 +160,13 @@
                             <!-- <h4 class="text-sm text-slate-400">Now you can earn bitcoin in your wallet just by referring coinx to one of your friend.</h4>
                                 <button class="bg-blue-500 p-2 text-sm text-white font-bold rounded mt-4">Refer now</button> -->
                                 <ul>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px]"><p>For men</p><input type="checkbox"></li> <hr>
-                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px]"><p>For women</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px]"><p>Erkakalar uchun</p><input type="checkbox"></li> <hr>
+                                    <li class="flex justify-between font-sans  not-italic text-sm font-medium leading-4 tracking-widest [padding:10px]"><p>Ayollar uchun</p><input type="checkbox"></li> <hr>
                                 </ul>
                             </div>
                             <div  @click="open = ! open" class="p-4 categoriy bg-white  [max-width:264px] rounded flex justify-between  items-center">
                                 <div class="flex items-center gap-2">
-                                    <h6 class="text-center font-sans not-italic text-xl font-normal leading-7 tracking-widest hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300 "  >Price</h6>
+                                    <h6 class="text-center font-sans not-italic text-xl font-normal leading-7 tracking-widest hover:border-b-2 transition duration-500 border-yellow-500 hover:text-yellow-500 transition duration-300 "  >Narxi</h6>
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
                                     <!-- <h4 class="font-medium text-sm text-blue-500">Add bitcoin to your wallet</h4> -->
                                 </div>
@@ -185,23 +186,24 @@
                                     <li class="flex justify-center"><img src="../images/means..svg" alt=""><img src="../images/means.2..svg" alt=""><img src="../images/means..svg" alt=""></li>
                                     <li>
                                         <ul class="flex justify-between">
-                                            <li><p class="font-sans">От</p><img class="[width:90px] [height:22px]" src="../images/ot.svg" alt=""></li>
-                                            <li><p class="font-sans">До</p><img class="[width:90px] [height:22px]" src="../images/ot.svg" alt=""></li>
+                                            <li><p class="font-sans">Kimdan</p><img class="[width:90px] [height:22px]" src="../images/ot.svg" alt=""></li>
+                                            <li><p class="font-sans">Oldin</p><img class="[width:90px] [height:22px]" src="../images/ot.svg" alt=""></li>
                                         </ul>
                                     </li>
                                     <li class="flex flex-col gap-y-5">
-                                        <p class="text-xl font-sans text-xl  not-italic  font-medium leading-7 tracking-widest">color</p>
+                                        <p class="text-xl font-sans text-xl  not-italic  font-medium leading-7 tracking-widest">ranglar</p>
                                         <ul class="flex gap-x-5">
                                             <li><input class="hover:scale-150 " type="radio"></li>
                                             <li><input class="hover:scale-150" type="radio"></li>
                                             <li><input class="hover:scale-150" type="radio"></li>
                                             <li><input class="hover:scale-150" type="radio"></li>
                                             <li><input class="hover:scale-150" type="radio"></li>
+                                            
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
-                            <button class="[max-width:264px] px-15 py-4 bg-yellow-500 font-sans not-italic font-normal leading-7 tracking-widest text-xl">Clean filter</button>
+                            <button class="[max-width:264px] px-15 py-4 bg-yellow-500 font-sans not-italic font-normal leading-7 tracking-widest text-xl">Filtrni tozalang</button>
                         </div>
                         <script src="//unpkg.com/alpinejs" defer></script>
                     </div>
@@ -213,7 +215,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -223,7 +225,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -233,7 +235,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -243,7 +245,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -253,7 +255,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -263,7 +265,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -273,7 +275,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -283,7 +285,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -293,7 +295,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -303,7 +305,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -313,7 +315,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                         <div class="means__card  mb-5  hover:shadow-2xl transition duration-400 rounded-xl hover:scale-90 transition duration-700 pb-5 [max-width:264px]">
@@ -323,7 +325,7 @@
                                 <li>
                                     <img src="../images/Group stars.svg" alt="">
                                 </li>
-                                <li class="text-sm not not-italic font-bold">855 у.е.</li>
+                                <li class="text-sm not not-italic font-bold">855 AQSh dollari</li>
                             </ul>
                         </div>
                     </div>
@@ -334,7 +336,7 @@
     <footer id="footer" class="pt-20 py-12 bg-white">
         <div class="container w-full [max-width:1186px] mx-auto px-5 hidden md:flex justify-between ">
             <div>
-                <h1 class="text-sm font-sans uppercase font-semibold mb-4">про imperia</h1>
+                <h1 class="text-sm font-sans uppercase font-semibold mb-4">Imperiya haqida</h1>
                 <p class="text-sm font-normal mb-4 w-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
                     pretium aenean dignissim sit cursus dictumst adipiscing nunc.
@@ -345,7 +347,7 @@
             </div>
             <div class="">
                 <div>
-                    <h1 class=" text-sm font-sans font-normal font-semibold uppercase mb-4">контакты</h1>
+                    <h1 class=" text-sm font-sans font-normal font-semibold uppercase mb-4">Kontaklar</h1>
                     <ul>
                         <li class="mb-3">
                             <a class=" text-sm font-normal" href="#">+998 90 958 78 87</a>
@@ -356,54 +358,54 @@
                     </ul>
                 </div>
                 <div class="mt-14">
-                    <h1 class=" text-sm font-sans font-normal font-semibold uppercase mb-4">рабочее время</h1>
+                    <h1 class=" text-sm font-sans font-normal font-semibold uppercase mb-4">Ishlash vaqti</h1>
                     <ul>
                         <li class="mb-3">
-                            <a class=" text-sm font-sans font-normal capitalize" href="#">По будням 9:00 to 18:00</a>
+                            <a class=" text-sm font-sans font-normal capitalize" href="#">Ish kunlari 9:00 dan 18:00 gacha</a>
                         </li>
                         <li class="">
-                            <a class=" text-sm font-sans font-normal capitalize" href="#">В выходные 11:00 to 18:00</a>
+                            <a class=" text-sm font-sans font-normal capitalize" href="#">Dam olish kunlari soat 11:00 dan 18:00 gacha</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="">
-                <h1 class=" text-sm font-sans font-semibold font-normal mb-4 uppercase">Меню</h1>
+                <h1 class=" text-sm font-sans font-semibold font-normal mb-4 uppercase">Menyu</h1>
                 <ul>
                     <li class="mb-3">
-                        <a class=" text-sm font-sans font-normal mb-3" href="#">Главная</a>
+                        <a class=" text-sm font-sans font-normal mb-3" href="../index.html">Asosiy</a>
                     </li>
                     <li class=" mb-3">
-                        <a class=" text-sm  font-sans font-normal" href="./https//support@fonon.uz">О нас</a>
+                        <a class=" text-sm  font-sans font-normal" href="./https//support@fonon.uz">Biz haqimizda</a>
                     </li>
                     <li class=" mb-3">
-                        <a class=" text-sm font-sans font-normal" href="./https//support@fonon.uz">Категории</a>
+                        <a class=" text-sm font-sans font-normal" href="./https//support@fonon.uz">Kategoriyalar</a>
                     </li>
                     <li class="">
-                        <a class=" text-sm font-sans font-normal" href="./https//support@fonon.uz">Сотрудничество</a>
+                        <a class=" text-sm font-sans font-normal" href="./https//support@fonon.uz">Hamkorlik</a>
                     </li>
                 </ul>
             </div>
             <div class="">
-                <h1 class=" text-sm font-sans font-semibold uppercase mb-4">категории</h1>
+                <h1 class=" text-sm font-sans font-semibold uppercase mb-4">Kategoriya</h1>
                 <ul>
                     <li class="mb-3">
-                        <a class=" text-sm font-sansfonts-sans  font-normal capitalize" href="#">Женская одежда</a>
+                        <a class=" text-sm font-sansfonts-sans  font-normal capitalize" href="#">Ayollar kiyimi</a>
                     </li>
                     <li class=" mb-3">
-                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Мужская одежда</a>
+                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Erkaklar kiyimi</a>
                     </li>
                     <li class=" mb-3">
-                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Детская одежда</a>
+                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Bolalar kiyimi</a>
                     </li>
                     <li class="mb-3">
-                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Обувь</a>
+                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Oyoq kiyimlari</a>
                     </li>
                     <li class="mb-3">
-                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Сумки</a>
+                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">sumkalar</a>
                     </li>
                     <li class="">
-                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Аксесуары</a>
+                        <a class=" text-sm fonts-sans font-normal capitalize" href="./https//support@fonon.uz">Aksessuarlar</a>
                     </li>
                 </ul>
             </div>
@@ -416,28 +418,28 @@
             <div class="flex justify-between max-w-xs mx-auto">
                 <ul class="pb-9">
                     <li class="mb-3">
-                        <a class="text-xl font-normal font-sans font-normal" href="#">Catalog</a>
+                        <a class="text-xl font-normal font-sans font-normal" href="#">Katalog</a>
                     </li>
                     <li class="mb-3">
-                        <a class="text-xl font-normal font-sans" href="#">Popular</a>
+                        <a class="text-xl font-normal font-sans" href="#">Ommabop</a>
                     </li>
                     <li class="mb-3">
-                        <a class="text-xl font-normal font-sans" href="#">Pricing</a>
+                        <a class="text-xl font-normal font-sans" href="#">Narxlash</a>
                         
                     </li>
                     <li>
-                        <a class="text-xl font-normal font-sans" href="#">Features</a>
+                        <a class="text-xl font-normal font-sans" href="#">Xususiyatlari</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="mb-4">
-                        <a class="text-xl font-normal font-sans" href="#">About</a>
+                        <a class="text-xl font-normal font-sans" href="#">Haqida</a>
                     </li> 
                     <li class="mb-4">
                         <a class="text-xl font-normal font-sans" href="#">Blog</a>
                     </li>
                     <li>
-                        <a class="text-xl font-normal font-sans" href="#">Contacts</a>
+                        <a class="text-xl font-normal font-sans" href="#">Kontaklar</a>
                     </li>
                 </ul>
             </div>
