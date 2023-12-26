@@ -1,0 +1,29 @@
+#backtop{
+    box-shadow: 0px 0px 5px 5px gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:orange;
+    position: fixed;
+    right: 20px;
+    bottom: -50px;
+    transition: 0.5s;
+}
+#backtop.backtop-show {
+    bottom: 50px;
+}
+
+ .navbar-shrink{
+    height: 60px;
+    box-shadow: 0px 0px 5px 5px orange;
+    background-color: rgba(240, 193, 81, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
+}
+
+
+ #navbar-close{
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    width: 100px;
+} 
